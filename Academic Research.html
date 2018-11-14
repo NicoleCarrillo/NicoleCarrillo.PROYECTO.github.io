@@ -240,6 +240,25 @@
        <div><p><b><h6>interview with Noah Johnson Oceanographer & Computational Modeling </h6></b></p></div>       
        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/jI7ixUgHSmk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
        <a href="preguntasEntrevista.pdf">Transcription</a></div>
+         
+         
+         
+         
+         
+          <!-- Element Showed -->
+  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">menu</i></a>
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <h5>Title</h5>
+      <p>A bunch of text</p>
+    </div>
+  </div>
+         
+         
+         
+         
        
          </div>
     </div>
@@ -287,6 +306,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems);
+  });
+       
+       document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tap-target');
+    var instances = M.TapTarget.init(elems);
   });
 
 
